@@ -1,6 +1,8 @@
 # 🎙️ Podcast RSS Feeds  
 
-This repository hosts multiple categorized RSS feeds extracted from the original podcast feed. Each feed focuses on a specific topic, making it easier to find relevant episodes.  
+This repository hosts multiple categorized RSS feeds extracted from the original FlipRadio podcast feed. Each feed focuses on a specific topic, making it easier to find relevant episodes.  
+
+📖 **[简体中文](README_cn.md) version available.**  
 
 ## 📌 Available RSS Feeds  
 
@@ -10,23 +12,34 @@ This repository hosts multiple categorized RSS feeds extracted from the original
 | **2.0**   | [2.0.xml](https://guy-chan.github.io/rss_feeds/2.0.xml) |
 | **Special** | [Special.xml](https://guy-chan.github.io/rss_feeds/Special.xml) |
 
-Copy the URL and add it to your favorite podcast player to subscribe.  
+🔗 **How to Subscribe:** Copy the URL and add it to your favorite podcast player.  
 
 ## 🔄 How It Works  
 
-This repository automatically filters episodes from the original RSS feed based on keywords in the episode titles:  
-- `FSTD.xml` → Episodes containing **"FSTD"**  
-- `2.0.xml` → Episodes containing **"2.0"**  
-- `Special.xml` → Episodes containing **"Special"**  
+This repository automatically filters episodes from the original FlipRadio RSS feed based on keywords in the episode titles:  
+- 📌 **FSTD.xml** → Episodes containing **"FSTD"**  
+- 📌 **2.0.xml** → Episodes containing **"2.0"**  
+- 📌 **Special.xml** → Episodes containing **"Special"**  
 
-The script `split_rss.sh` runs the filtering process and updates the RSS feeds.  
+The script [`split_rss.sh`](split_rss.sh) handles the filtering and updates the feeds.  
 
 ## 🚀 Hosting on GitHub Pages  
 
-The feeds are directly accessible via GitHub Pages. Just copy the feed URL and use it in your podcast player!  
+These feeds are hosted on **GitHub Pages**, meaning they are always available and easy to access. Simply copy the feed URL and subscribe!  
 
 ## 🔧 Updating the Feeds  
 
 1. Run the script to fetch and update feeds:  
    ```sh
    sh split_rss.sh
+   ```
+2. Commit and push the updated files:  
+   ```sh
+   git add rss_feeds/*.xml  
+   git commit -m "Update RSS feeds"  
+   git push  
+   ```
+
+## 📩 Contact  
+
+For issues or suggestions, open an [issue](https://github.com/guy-chan/guy-chan.github.io/issues) or reach out.  
