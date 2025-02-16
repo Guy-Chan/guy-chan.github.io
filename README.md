@@ -1,6 +1,6 @@
-# 🎙️ Podcast RSS Feeds  
+# 🎙️ FlipRadio Categorized RSS Feeds  
 
-This repository hosts multiple categorized RSS feeds extracted from the original FlipRadio podcast feed. Each feed focuses on a specific topic, making it easier to find relevant episodes.  
+This repository hosts multiple categorized RSS feeds extracted from the original **[FlipRadio](https://www.youtube.com/playlist?list=PLxfcznuBUN2AaOeUu1q03ccPf6XSJx8Ee)** podcast feed. Each feed focuses on a specific topic, making it easier to find relevant episodes.  
 
 📖 **[简体中文](README_cn.md) version available.**  
 
@@ -16,7 +16,7 @@ This repository hosts multiple categorized RSS feeds extracted from the original
 
 ## 🔄 How It Works  
 
-This repository automatically filters episodes from the original FlipRadio RSS feed based on keywords in the episode titles:  
+This repository automatically filters episodes from the original **[FlipRadio](https://www.youtube.com/playlist?list=PLxfcznuBUN2AaOeUu1q03ccPf6XSJx8Ee)** RSS feed based on keywords in the episode titles:  
 - 📌 **FSTD.xml** → Episodes containing **"FSTD"**  
 - 📌 **2.0.xml** → Episodes containing **"2.0"**  
 - 📌 **Special.xml** → Episodes containing **"Special"**  

@@ -1,6 +1,6 @@
-# 🎙️ 播客 RSS 订阅源  
+# 🎙️ FlipRadio 分类 RSS 订阅源  
 
-本仓库提供多个按类别划分的 FlipRadio RSS 订阅源，方便查找特定主题的播客内容。  
+本仓库提供多个按类别划分的 RSS 订阅源，来自 **[FlipRadio](https://www.youtube.com/playlist?list=PLxfcznuBUN2AaOeUu1q03ccPf6XSJx8Ee)** 播客，以便用户更轻松地找到感兴趣的节目。  
 
 🇬🇧 **[English Version](README.md)**  
 
@@ -16,7 +16,7 @@
 
 ## 🔄 运行机制  
 
-本仓库根据 **标题关键词** 自动筛选原始 FlipRadio RSS 订阅源中的播客：  
+本仓库根据 **标题关键词** 自动筛选 **[FlipRadio](https://www.youtube.com/playlist?list=PLxfcznuBUN2AaOeUu1q03ccPf6XSJx8Ee)** 原始 RSS 订阅源中的播客：  
 - 📌 **FSTD.xml** → 标题包含 **"FSTD"** 的节目  
 - 📌 **2.0.xml** → 标题包含 **"2.0"** 的节目  
 - 📌 **Special.xml** → 标题包含 **"Special"** 的节目  
